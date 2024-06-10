@@ -10,3 +10,5 @@
 2) On the General page, provide the name, description, and alias for the watchlist, then select Next.
 3) On the Source page, select the dataset type, upload a file, then select Next.
 4) Next, review the information, verify that it's correct, then select Create. A notification appears once the watchlist is ready.
+
+![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/e77920b4-6958-4587-9f9f-6cd8d0203a56)
