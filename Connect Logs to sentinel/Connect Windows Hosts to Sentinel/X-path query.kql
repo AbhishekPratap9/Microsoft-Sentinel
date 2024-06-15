@@ -1,0 +1,6 @@
+$XPath = '*[System[EventID=1035]]'
+Get-WinEvent -LogName 'Application' -FilterXPath $XPath
+
+// If events are returned, the query is valid
+//  receive the message "No events were found that match the specified selection criteria," the query may be valid, but there are no matching events on the local machine.
+//  receive the message "The specified query is invalid," the query syntax is invalid.
