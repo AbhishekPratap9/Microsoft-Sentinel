@@ -1,4 +1,4 @@
-$XPath = '*[System[EventID=1035]]'
+$XPath = '*[System[EventID= ""]]'
 Get-WinEvent -LogName 'Application' -FilterXPath $XPath
 
 // If events are returned, the query is valid
