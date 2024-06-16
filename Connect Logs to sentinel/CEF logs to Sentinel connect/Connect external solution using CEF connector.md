@@ -12,3 +12,9 @@ To view the connector page:
 * *select Data connectors -> select CEF -> select Open connector page on the preview pane -> verify the appropriate permissions -> Copy the "sudo wget …" command and run with elevated permissions on the dedicated Linux VM* <br><br>
 ![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/19c093e1-de18-44cf-9423-88a8e249352f)
 
+### Using the same machine to forward both plain Syslog and common event format messages
+If you plan to use this log forwarder machine to forward Syslog messages as CEF, then to avoid the duplication of events to the Syslog and CommonSecurityLog tables:<br>
+
+On each source machine that sends logs to the forwarder in CEF format, you must edit the Syslog configuration file to remove the facilities used to send CEF messages.
+
+
