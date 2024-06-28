@@ -24,6 +24,15 @@ Create the Azure workspace
      ![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/c6130054-551d-4fd3-9e3e-e307356c02e2)
      ![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/a05dbfbd-1ee6-45ec-9319-86bfa05348f2)
      ![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/3c802ab7-e126-4000-b4f9-9ed06bbd2b29)
+5) *Sentinel -> select previously created workspace -> configuration -> Analytics*
+   ![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/07cad196-b494-480a-85d4-dedfa525840c)
+6) *Create -> NRT Query RUle*
+   ![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/ced2a167-11b5-4ca7-963b-4b7e5f7f5bf4)
+7) *In General tab -> Provide Name and Techniques & Tactics*
+   ![image](https://github.com/AbhishekPratap9/Microsoft-Sentinel/assets/156197198/b1d66273-5654-4675-9719-25f15a9d3164)
+
+
+
 
      
 
